@@ -1,0 +1,333 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  color: #262D33;
+ font-family: 'Lato', sans-serif;
+}
+body {
+  color: #545051;
+ font-family: 'SF Pro Text';font-size: 14px;
+}
+
+@font-face {
+    font-family:RusticLoveTattoo;
+    src: url(../fonts/RusticLoveTattoo.otf);
+}
+
+.selector-for-some-widget {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+a:hover { text-decoration: none }
+
+
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFProText-Regular.woff2') format('woff2'),
+        url('../fonts/SFProText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.container {
+	max-width: 1170px;
+}
+
+
+
+/* Header bar section start */
+.header-bar-section.scroll-header {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	background: #262d33;
+}
+.header-bar-section.scroll-header {
+	-webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+	animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+.hero-area {
+  height: 800px;
+  background-size: cover;
+  background-position: center bottom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero-area h1 {
+	color: #fff;
+	font-size: 58px;
+	color: ;
+	font-weight: 700;
+}
+.header-bar-section {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+.menu-open {
+  display: none;
+}
+.menu-close {
+  display: none;
+}
+
+.site-menu ul li a {
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: block;
+	margin-right: 39px;
+}
+.site-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.site-menu ul li {
+  display: inline-block;
+}
+
+.site-logo {
+  text-align: center;
+}
+.site-logo img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: ;
+}
+.site-logo a {
+  color: #fff;
+}
+.header-bar-section {
+	padding: 10px 0;
+}
+.site-menu {
+	margin-top: 10px;
+}
+
+.map-map-blk img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+/* Header bar section  END */
+
+
+/* Huno css start */
+
+
+.section-title {
+  text-align: center;
+}
+.section-title h2 {
+  color: #262D33;
+  font-size: 38px;
+  font-weight: 800;
+}
+.single-travel-blk h3 {
+  font-size: 22px;
+  color: #262D33;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.single-travel-blk p {
+  margin-bottom: 0;
+}
+.single-travel-blk p {
+	font-size: 15px;
+}
+.single-travel-blk {
+  position: relative;
+  padding-left: 94px;
+}
+.single-travel-blk img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.travel-area {
+	padding: 70px 0;
+}
+.section-title {
+	margin-bottom: 80px;
+}
+.contact-area {
+	padding-top: 60px;
+}
+.single-travel-blk h3 span {
+  color: #bb0505;
+  font-size: 12px;
+  border: 1px solid;
+  display: inline-block;
+  margin-left: 9px;
+  width: 43px;
+  text-align: center;
+  height: 18px;
+  line-height: 16px;
+  border-radius: 2px;
+  font-weight: 300;
+}
+.single-travel-blk h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.single-travel-blk {
+  margin-bottom: 40px;
+}
+
+/* Huno css end */
+
+
+/* Contact css start */
+
+.contact-area {
+}
+.map-area {
+  position: relative;
+}
+.map-map-blk {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+#test {
+  height: 100%;
+}
+
+.single-m-text h3 {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 3px;
+}
+.single-m-text p {
+  color: #262D33;
+  margin: 0;
+}
+.single-m-text {
+  margin-bottom: 52px;
+}
+.map-area {
+	padding-bottom: 180px;
+	margin-bottom: 100px;
+}
+
+/* Contact css end */
+
+
+/* Footer css start */
+
+
+.footer-area {
+  background: #262d33;
+}
+.footer-logo a img {
+  display: block;
+  text-align: center;
+}
+.footer-logo {
+  max-width: 100px;
+  text-align: center;
+  color: #fff;
+}
+.footer-logo a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.footer-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.footer-menu ul li {
+  display: inline-block;
+}
+.footer-menu ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  font-size: 12px;
+  margin: 0 15px;
+}
+.social-icons {
+  text-align: right;
+}
+.social-icons a {
+  color: #fff;
+  margin: ;
+  margin-right: ;
+  margin-left: 17px;
+}
+.footer-area {
+  padding-top: 25px;
+}
+.footer-cp-text p {
+  color: #939699;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 300;
+  border-top: 1px solid #383f45;
+  padding-top: 14px;
+  margin-top: 15px;
+  text-align: center;
+  padding-bottom: 14px;
+}
+
+
+/* Footer css end */
+
+
+
+
+
+
+
+
+
+
+
+
